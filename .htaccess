@@ -1,0 +1,7 @@
+#This is to redirect to index.php
+<IfModule mod_rewrite.c>
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+</IfModule>

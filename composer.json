@@ -1,0 +1,20 @@
+{
+    "name": "furix/furix",
+    "type": "mini-framwork",
+    "description": "A mini-framework for building web applications.",
+    "keywords": ["framework", "furix"],
+    "require":{
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "./"
+        ],
+        "files":[
+            "core/helpers.php"
+        ]
+    }
+}
